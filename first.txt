@@ -1,10 +1,10 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request,'home.html')
+    return render(request,'home.html',"How are u")
 
 def contact(request):
-    return render(request,'contact.html')
+    return render(request,'contact.html',"ghjnns,")
 
 def feedback(request):
     return render(request,'feedback.html')
